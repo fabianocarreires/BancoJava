@@ -22,7 +22,7 @@ public class Banco {
                     if (variavel.getNumeroConta() == numeroContaMov) {
                         movimentar();
                     }else{
-                        System.out.println("Número de conta inválida!");
+                        System.out.println("Número de conta inválido!");
                         System.out.println("Tente nvamente!");
                     }
                 }
